@@ -1,0 +1,29 @@
+blackout<- function(z) {
+  y<-0
+  x<-2
+  while(y<z){
+      x<-x+1
+  }
+  
+  {
+    if(x%%2!=0){
+      if(x%%3!=0){
+        if(x%%4!=0){
+          if(x%%5!=0){
+            if(x%%6!=0){
+              if(x%%7!=0){
+                if(x%%8!=0){
+                  if(x%%9!=0){
+                    print(x)
+                    y<-y+1
+                  }
+                } 
+              } 
+            } 
+          } 
+        } 
+      }  
+    }
+  }
+}
+blackout(5)
